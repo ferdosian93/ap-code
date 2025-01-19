@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: gov-services-sec
+  namespace: ap-miscellaneous-services
+type: Opaque
+data:
+  SERVER_DATABASE_URI-SEC: KGRlc2NyaXB0aW9uPShhZGRyZXNzPShob3N0PTE3Mi4yNS4yNS42NykocHJvdG9jb2w9dGNwKShwb3J0PTE1MjEpKShjb25uZWN0X2RhdGE9KHNlcnZpY2VfbmFtZT1wZGJfdGVzdC50YXNuLmlyKSkp
+  SERVER_DATABASE_USER-SEC: QVBfTUlTQ0VMTEFORU9VU19HT1Y=
+  SERVER_DATABASE_PASSWORD-SEC: bThoR25tbV9zZQ==

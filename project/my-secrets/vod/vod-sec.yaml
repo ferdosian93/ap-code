@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: vod
+  namespace: ap-miscellaneous-services
+type: Opaque
+data:
+  SERVER_DATABASE_URI-SEC: KGRlc2NyaXB0aW9uPShhZGRyZXNzPShob3N0PTE3Mi4yNS4yNS42NykocHJvdG9jb2w9dGNwKShwb3J0PTE1MjEpKShjb25uZWN0X2RhdGE9KHNlcnZpY2VfbmFtZT1wZGJfdGVzdC50YXNuLmlyKSkp
+  SERVER_DATABASE_USER-SEC: YXBfbWlzY2VsbGFuZW91c192b2Q=
+  SERVER_DATABASE_PASSWORD-SEC: ODkyNEptdlROSTg2dTdfc2U=
+  SERVER_REDIS_URI-SEC: 
+

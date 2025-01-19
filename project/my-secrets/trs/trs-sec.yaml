@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: trs-sec
+  namespace: ap-miscellaneous-services
+type: Opaque
+data:
+  SERVER_DATABASE_URI-SEC: KGRlc2NyaXB0aW9uPShhZGRyZXNzPShob3N0PTE3Mi4yNS4yNS42NykocHJvdG9jb2w9dGNwKShwb3J0PTE1MjEpKShjb25uZWN0X2RhdGE9KHNlcnZpY2VfbmFtZT1wZGJfdGVzdC50YXNuLmlyKSkpCg==
+  SERVER_DATABASE_USER-SEC: QVBfVFJTCg==
+  SERVER_DATABASE_PASSWORD-SEC: eTdZOEJnOGgzbXpfc2UK
+  SERVER_REDIS_URI-SEC: cmVkaXM6Ly86M2RlYTk4NmFjMjUyMjIzNjIyOTM3MzRjZTIzYmYyYzIzYzk2YTVmOGMzNDUxOTMyODgwNzEwYjAxNmM3MjEzMEB0cnMtcmVkaXMtbWFzdGVyLnJlZGlzLWFwLW1pc2NlbGxhbmVvdXMtc2VydmljZXM6NjM3OS8xCg==
+

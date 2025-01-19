@@ -1,0 +1,16 @@
+{
+  "name": "mano-keley",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "18.0.0",
+    "ui-kit": "^0.20.10",
+    "ui-kit_new": "^0.0.69-dev"
+  }
+}

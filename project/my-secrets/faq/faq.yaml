@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: faq-sec
+  namespace: ap-miscellaneous-services
+type: Opaque
+data:
+  SERVER_DATABASE_URI-SEC: bW9uZ29kYjovL2FwX21pc2NlbGxhbmVvdXNfc2VydmljZXNfZmFxX3Vzcjo1S2ttT0pSVUFFdmhYdVdDX3ZhQDE3Mi4yNS4yNS4xMTc6MjcwMTcvYXBfbWlzY2VsbGFuZW91c19zZXJ2aWNlc19mYXE/YXV0aFNvdXJjZT1hcF9taXNjZWxsYW5lb3VzX3NlcnZpY2VzX2ZhcSZyZWFkUHJlZmVyZW5jZT1wcmltYXJ5JmRpcmVjdENvbm5lY3Rpb249dHJ1ZSZzc2w9ZmFsc2U=
+  SERVER_ELASTICSEARCH_URI-SEC: aHR0cDovLzE3Mi4yNS4yNS42OTo5MjAwLw==
+  SERVER_ELASTICSEARCH_USERNAME-SEC: bW9uaXRvcmluZw==
+  SERVER_ELASTICSEARCH_PASSWORD-SEC: bW9uaXRvcmluZ0AxMjM=
+

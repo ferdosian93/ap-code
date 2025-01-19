@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Enter your clone address"
+read CLONE_ADDRESS
+echo $CLONE_ADDRESS
